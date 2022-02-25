@@ -1,7 +1,7 @@
 -- 3rd party plugins highlights
-local base = require("gruvbox.base")
-local styles = require("gruvbox.settings").styles
-local colors = require("gruvbox.colors")
+local base = require("gruvpack.base")
+local styles = require("gruvpack.settings").styles
+local colors = require("gruvpack.colors")
 
 local plugins = {
   -- netrw
@@ -72,7 +72,7 @@ local plugins = {
   TelescopeSelection = base.GruvboxOrangeBold,
   TelescopeSlectionCaret = base.GruvboxRed,
   TelescopeMultiSelection = base.GruvboxGray,
-  TelescopeNormal = base.GruvboxFg1,
+  TelescopeNormal = base.GruvboxBg4,
   TelescopeBorder = "TelescopeNormal",
   TelescopePromptBorder = "TelescopeNormal",
   TelescopeResultsBorder = "TelescopeNormal",

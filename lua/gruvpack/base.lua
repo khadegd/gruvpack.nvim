@@ -1,6 +1,6 @@
-local colors = require("gruvbox.colors")
-local styles = require("gruvbox.settings").styles
-local utils = require("gruvbox.utils")
+local colors = require("gruvpack.colors")
+local styles = require("gruvpack.settings").styles
+local utils = require("gruvpack.utils")
 
 -- options (dark mode by default)
 local bg0 = colors.dark0

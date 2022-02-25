@@ -1,8 +1,8 @@
 -- language specific higlights
-local base = require("gruvbox.base")
-local styles = require("gruvbox.settings").styles
-local utils = require("gruvbox.utils")
-local colors = require("gruvbox.colors")
+local base = require("gruvpack.base")
+local styles = require("gruvpack.settings").styles
+local utils = require("gruvpack.utils")
+local colors = require("gruvpack.colors")
 
 -- xml
 local xml = {

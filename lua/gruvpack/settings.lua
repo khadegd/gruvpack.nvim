@@ -1,5 +1,5 @@
 -- gruvbox settings handler
-local utils = require("gruvbox.utils")
+local utils = require("gruvpack.utils")
 
 local settings = {
   contrast_dark = "medium",
